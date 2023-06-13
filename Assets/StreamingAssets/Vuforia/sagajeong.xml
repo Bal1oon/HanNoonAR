@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="fruit" size="0.211666 0.089164"/>
+        <ImageTarget name="billiards" size="0.257175 0.085460"/>
+        <ImageTarget name="coffee" size="0.211666 0.073819"/>
+        <ImageTarget name="wuju" size="0.216429 0.073290"/>
+        <ImageTarget name="salon" size="0.211666 0.098425"/>
+        <ImageTarget name="pomato" size="0.211666 0.095514"/>
+        <ImageTarget name="seoul" size="0.211666 0.137318"/>
+        <ImageTarget name="chunja" size="0.211666 0.112712"/>
+        <ImageTarget name="jju" size="0.309562 0.132027"/>
+        <ImageTarget name="pizza" size="0.211666 0.116681"/>
+        <ImageTarget name="gamtan" size="0.309562 0.140229"/>
+        <ImageTarget name="buja" size="0.211666 0.121973"/>
+        <ImageTarget name="doremi" size="0.309562 0.116681"/>
+        <ImageTarget name="bbang" size="0.309562 0.152664"/>
+        <ImageTarget name="ediya_day" size="0.309562 0.142346"/>
+        <ImageTarget name="tomn_day" size="0.309562 0.139964"/>
+        <ImageTarget name="gobchang_day" size="0.309562 0.107950"/>
+        <ImageTarget name="kyochon_day" size="0.309562 0.084137"/>
+        <ImageTarget name="liter_day" size="0.309562 0.149225"/>
+        <ImageTarget name="liter" size="0.359304 0.162983"/>
+        <ImageTarget name="kyochon" size="0.409575 0.121708"/>
+        <ImageTarget name="gobchang" size="0.418570 0.169862"/>
+        <ImageTarget name="gobchang_mul.Front" size="0.309562 0.107950"/>
+        <ImageTarget name="gobchang_mul.Right" size="0.309562 0.107950"/>
+        <ImageTarget name="gobchang_mul.Left" size="0.309562 0.107950"/>
+        <ImageTarget name="liter_mul.Front" size="0.309562 0.149225"/>
+        <ImageTarget name="liter_mul.Right" size="0.309562 0.149225"/>
+        <ImageTarget name="liter_mul.Left" size="0.309562 0.149225"/>
+        <MultiTarget name="gobchang_mul">
+            <Part name="gobchang_mul.Left" translation="-0.15478099882602692 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="gobchang_mul.Right" translation="0.15478099882602692 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="gobchang_mul.Front" translation="0 0 0.15478099882602692" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+        <MultiTarget name="liter_mul">
+            <Part name="liter_mul.Left" translation="-0.15478099882602692 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="liter_mul.Right" translation="0.15478099882602692 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="liter_mul.Front" translation="0 0 0.15478099882602692" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
