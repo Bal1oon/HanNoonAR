@@ -14,7 +14,7 @@ And we can be guided in front of the restaurant by following the 3D model.
 <img width="400" alt="스크린샷 2023-06-15 오전 12 15 46" src="https://github.com/Bal1oon/HanNoonAR/assets/74820505/0a53a4fa-7fd8-461c-b6ef-841681294edf">
 
 ## Installation
-**1. Download APK** \
+**1. Download APK**
 
     Download the APK file, HanNoon.apk from the [HanNoonAR](https://github.com/Bal1oon/HanNoonAR)
 
