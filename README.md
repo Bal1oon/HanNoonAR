@@ -15,20 +15,19 @@ And we can be guided in front of the restaurant by following the 3D model.
 
 ## Installation
 **1. Download APK**
-
-    Download the APK file, HanNoon.apk from the [HanNoonAR](https://github.com/Bal1oon/HanNoonAR)
+* Download the APK file, HanNoon.apk from the [HanNoonAR](https://github.com/Bal1oon/HanNoonAR)
 
 **2. Unity**
-    
-    1. Download Unity.
-    2. Download the files from the GitHub repository at [HanNoonAR](https://github.com/Bal1oon/HanNoonAR)
-    3. Launch Unity and execute the Unity packages among the downloaded files.
-    4. In Unity, go to File > Build Settings > Select Android (Platform) > Switch Platform.
-    5. Configure Player Settings:
-        > Select 'Android' under the Player Settings.
-        > Other Settings > Rendering > Texture compression format > select ETC
-        > Other Settings > Rendering > Normal Map Encoding > select XYZ
-        > Other Settings > Identification > Minimum API Level > select 26
-        > Other Settings > Configuration > Scripting Backend > select IL2CPP
-        > Other Settings > Configuration > Target Architectures > unselect ARMv7 and select ARM64
-    6. File > Build And Run
+* Download Unity.
+* Download Unity.
+* Download the files from the GitHub repository at [HanNoonAR](https://github.com/Bal1oon/HanNoonAR)
+* Launch Unity and execute the Unity packages among the downloaded files.
+* In Unity, go to File > Build Settings > Select Android (Platform) > Switch Platform.
+* Configure Player Settings:
+    * Select 'Android' under the Player Settings.
+    * Other Settings > Rendering > Texture compression format > select ETC
+    * Other Settings > Rendering > Normal Map Encoding > select XYZ
+    * Other Settings > Identification > Minimum API Level > select 26
+    * Other Settings > Configuration > Scripting Backend > select IL2CPP
+    * Other Settings > Configuration > Target Architectures > unselect ARMv7 and select ARM64
+* File > Build And Run
