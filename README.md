@@ -1,5 +1,6 @@
 # HanNoonAR
-Capstone Design AR Application at Gachon University
+Capstone Design AR Application at Gachon University. \
+There is additional information available on the Wiki.
 
 ## Introduction
 HanNOON is an android application that helps users find out what stores sell
