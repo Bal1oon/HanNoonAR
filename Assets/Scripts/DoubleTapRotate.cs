@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class DoubleTapRotate : MonoBehaviour
 {
-    public Vector3 rotationAxis = Vector3.up; // Inspector에서 선택한 회전 축
-    public float rotationSpeed = 90f; // 회전 속도
-    public float doubleTapTimeThreshold = 0.3f; // 연속 터치 간 시간 임계값
+    public Vector3 rotationAxis = Vector3.up; // Rotation axis selected in the Inspector
+    public float rotationSpeed = 90f; // Rotation speed
+    public float doubleTapTimeThreshold = 0.3f; // Time threshold for detecting double taps
 
     private bool isRotating = false;
     private float lastTapTime = 0f;
@@ -19,18 +19,27 @@ public class DoubleTapRotate : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                if (Time.time - lastTapTime <= doubleTapTimeThreshold)
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(touch.position);
+
+                if (Physics.Raycast(ray, out hit))
                 {
-                    // 연속 터치 감지되면 회전 시작
-                    if (!isRotating)
+                    if (hit.collider.gameObject == gameObject)
                     {
-                        isRotating = true;
-                        StartCoroutine(RotateObject());
+                        if (Time.time - lastTapTime <= doubleTapTimeThreshold)
+                        {
+                            // Start rotation if double tap is detected
+                            if (!isRotating)
+                            {
+                                isRotating = true;
+                                StartCoroutine(RotateObject());
+                            }
+                        }
+                        else
+                        {
+                            lastTapTime = Time.time;
+                        }
                     }
-                }
-                else
-                {
-                    lastTapTime = Time.time;
                 }
             }
         }
